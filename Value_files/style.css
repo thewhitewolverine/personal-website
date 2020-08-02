@@ -473,25 +473,6 @@ a.banner-button2 {
     position: relative;
 }
 
-
-
-.banner1 {
-    background: url(../images/trifecta.jpg) no-repeat center;
-    background-size: cover;
-    position: relative;
-}
-
-.banner1:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.7;
-    background: #000;
-}
-
 .banner:before {
     content: '';
     position: absolute;
@@ -502,6 +483,59 @@ a.banner-button2 {
     opacity: 0.5;
     background: #000;
 }
+
+.bannerncc {
+    background: url(../images/NCC_banner.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.bannerncc:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    background: #000;
+}
+
+.bannermi {
+    background: url(../images/MI_banner.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.bannermi:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    background: #000;
+}
+
+.bannerts {
+    background: url(../images/TS_banner.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.bannerts:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    background: #000;
+}
+
+
 
 
 
